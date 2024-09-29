@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us"
+<html lang="en"
   x-data
   :class="$store.darkMode ? $store.darkMode.class() : ''"
   :data-theme="$store.darkMode ? $store.darkMode.theme() : ''">
@@ -9,7 +9,7 @@
     <title>
 
 
-All Tags | My New Hugo Site</title>
+Alle Tags | Briefe von Felix</title>
 
     
 
@@ -17,7 +17,7 @@ All Tags | My New Hugo Site</title>
 
 
 
-<meta name="author" content="" />
+<meta name="author" content="Felix" />
 <meta name="description" content="" />
 
 
@@ -26,9 +26,9 @@ All Tags | My New Hugo Site</title>
 
 
 <meta property="og:url" content="http://localhost:1313/tags/">
-  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:site_name" content="Briefe von Felix">
   <meta property="og:title" content="Tags">
-  <meta property="og:locale" content="en_us">
+  <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
 
 
@@ -67,10 +67,19 @@ All Tags | My New Hugo Site</title>
     <section class="flex items-center gap-4">
       <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="Flip it!">
         <div class="h-10 rounded-full">
-          <img src="/" alt="" />
+          <img src="/" alt="Briefe von Felix" />
         </div>
       </div>
 
+      
+      <div>
+        
+        <a href="http://localhost:1313/" class="text-lg font-semibold cursor-pointer">
+          Briefe von Felix
+        </a>
+        
+        
+      </div>
       
     </section>
 
@@ -82,6 +91,16 @@ All Tags | My New Hugo Site</title>
         
 
 
+<li>
+  <div role="link" tabindex="0" class="inline-flex items-center p-2 cursor-pointer" @click="flip = !flip" title="">
+    <ion-icon name="information-circle"></ion-icon></div>
+</li>
+
+
+
+
+
+
 
 
 
@@ -100,9 +119,9 @@ All Tags | My New Hugo Site</title>
 
 
 <li>
-  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archiv">
     <ion-icon name="archive"></ion-icon>
-    Archives
+    Archiv
   </a>
 </li>
 
@@ -110,9 +129,9 @@ All Tags | My New Hugo Site</title>
 
 
 <li>
-  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="All Categories">
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="Alle Kategorien">
     <ion-icon name="grid"></ion-icon>
-    All Categories
+    Alle Kategorien
   </a>
 </li>
 
@@ -120,9 +139,9 @@ All Tags | My New Hugo Site</title>
 
 
 <li>
-  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="All Tags">
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="Alle Tags">
     <ion-icon name="pricetags"></ion-icon>
-    All Tags
+    Alle Tags
   </a>
 </li>
 
@@ -135,12 +154,21 @@ All Tags | My New Hugo Site</title>
     </div>
     <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
       
-
+      
+      
+      <div role="link" tabindex="0" class="text-sm font-semibold cursor-pointer hover:underline" @click="flip = !flip" title=""></div>
       
       
 
       
+      
+        
+      
 
+      
+
+      
+      
       
       
 
@@ -156,30 +184,47 @@ All Tags | My New Hugo Site</title>
 
 
       
-      
-<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="Archives">
-  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
-</a>
+
+      <div class="dropdown dropdown-end dropdown-hover">
+        <div tabindex="0" role="button" class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" aria-label="Select an option">
+          <ion-icon class="group-hover:text-primary-content text-xl" name="menu"></ion-icon>
+        </div>
+        <ul class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-xl">
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archiv">
+    <ion-icon name="archive"></ion-icon>
+    Archiv
+  </a>
+</li>
 
 
-      
-      
-<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/categories" title="All Categories">
-  <ion-icon class="group-hover:text-primary-content" name="grid"></ion-icon>
-</a>
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="Alle Kategorien">
+    <ion-icon name="grid"></ion-icon>
+    Alle Kategorien
+  </a>
+</li>
 
 
-      
-      
-<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="All Tags">
-  <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
-</a>
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="Alle Tags">
+    <ion-icon name="pricetags"></ion-icon>
+    Alle Tags
+  </a>
+</li>
 
 
-      
+          
 
-      
-
+          
+        </ul>
+      </div>
       
     </section>
   </div>
@@ -198,12 +243,12 @@ All Tags | My New Hugo Site</title>
   <div class="md:basis-[200px] lg:basis-[300px] p-4 prose dark:prose-invert">
     <h1 class="text-2xl">
       
-      All Tags
+      Alle Tags
     </h1>
     <p class="text-sm">
       
         
-          2 tags
+          2 Tags
         
       
     </p>
@@ -246,7 +291,11 @@ All Tags | My New Hugo Site</title>
     <h2 class="card-title">Test</h2>
 
     
-      <p class="date text-base-content/60">Datum nicht verfügbar</p>
+      <p class="date text-base-content/60">
+        
+          Sonntag, Sept. 29, 2024
+        
+      </p>
     
 
     
@@ -271,7 +320,7 @@ All Tags | My New Hugo Site</title>
 
       <div class="flex items-center">
         <ion-icon name="time" class="mr-1"></ion-icon>
-        <span>1 minute read</span>
+        <span>1 Minuten Lesezeit</span>
       </div>
     </div>
   </div>
@@ -294,7 +343,9 @@ All Tags | My New Hugo Site</title>
               px-4  py-12 ">
               <div>
   
-  <p>© 2024 My New Hugo Site</p>
+  <p>
+    © 2024 Briefe von Felix
+  </p>
   
 
   
@@ -343,6 +394,72 @@ All Tags | My New Hugo Site</title>
             
               <div class="dream-grid">
   
+  
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Über mich 👋</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Wenn du das hier liest kennst du mich wahrscheinlich schon, Falls nicht&hellip;
+Hi! Ich bin Felix. 2024 habe ich mein Abitur geschrieben und mache zurzeit ein Gap Year, um Neuseeland zu erkunden. Zuvor habe ich schon einige europäische Länder bereist, aber das hier ist meine erste große Reise außerhalb Europas.</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Warum Neuseeland? 🇳🇿</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Für mich stand fest: Nach der Schule will ich die Welt sehen. Neuseeland, als eines der am weitesten entfernten Länder, schien mir der perfekte Startpunkt.</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Was dich hier erwartet 👣</div>
+
+        <div class="prose dark:prose-invert">
+          <p>In diesem Blog teile ich meine Erfahrungen im „Land der langen weißen Wolke“. Du wirst sowohl von den ikonischen Landschaften als auch von den kleinen, besonderen Momenten des neuseeländischen Alltags lesen.</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Sei dabei! 👀</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Ich freue mich, wenn du mich auf meiner Reise begleitest!</p>
+<p>Cheers
+Felix!</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  
 
   
 
@@ -356,8 +473,8 @@ All Tags | My New Hugo Site</title>
     </div>
 
     <script>
-  window.lightTheme =  null 
-  window.darkTheme =  null 
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
 </script>
 
 
