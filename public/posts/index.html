@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en"
   x-data
-  :class="$store.darkMode ? $store.darkMode.class() : ''"
-  :data-theme="$store.darkMode ? $store.darkMode.theme() : ''">
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Posts | Briefe von Felix</title>
 
     
+<link href="/favicon.ico" rel="icon" type="image/x-icon" />
+
 
 <link rel="canonical" href="http://localhost:1313/posts/" />
 
@@ -67,7 +69,7 @@
     <section class="flex items-center gap-4">
       <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="Flip it!">
         <div class="h-10 rounded-full">
-          <img src="/" alt="Briefe von Felix" />
+          <img src="/icon.png" alt="Briefe von Felix" />
         </div>
       </div>
 
@@ -118,32 +120,23 @@
 
 
 
-<li>
-  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archiv">
-    <ion-icon name="archive"></ion-icon>
-    Archiv
-  </a>
-</li>
 
 
 
 
-<li>
-  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="Alle Kategorien">
-    <ion-icon name="grid"></ion-icon>
-    Alle Kategorien
-  </a>
-</li>
 
 
 
 
-<li>
-  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="Alle Tags">
-    <ion-icon name="pricetags"></ion-icon>
-    Alle Tags
-  </a>
-</li>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -192,32 +185,23 @@
         <ul class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-xl">
           
           
-<li>
-  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archiv">
-    <ion-icon name="archive"></ion-icon>
-    Archiv
-  </a>
-</li>
+
+
+
 
 
           
           
-<li>
-  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="Alle Kategorien">
-    <ion-icon name="grid"></ion-icon>
-    Alle Kategorien
-  </a>
-</li>
+
+
+
 
 
           
           
-<li>
-  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="Alle Tags">
-    <ion-icon name="pricetags"></ion-icon>
-    Alle Tags
-  </a>
-</li>
+
+
+
 
 
           
@@ -248,34 +232,14 @@
   <div class="max-w-[65ch] mx-auto mt-8 lg:mt-12">
     <ul class="timeline timeline-vertical">
       
-      <li class="[--timeline-col-start:64px]">
-        <hr class="dark:bg-base-content" />
-        <div class="timeline-start !justify-self-start">
-          <div class="text-lg font-semibold">2024</div>
-        </div>
-        <div class="timeline-middle flex items-center mx-8 my-2">
-          <ion-icon name="time"></ion-icon>
-        </div>
-        <div class="timeline-end timeline-box dark:border-base-content/60 prose dark:prose-invert my-8">
-          <ul>
-            
-            <li>
-              <a href="/posts/test/">Test</a>
-            </li>
-            
-          </ul>
-        </div>
-        <hr class="dark:bg-base-content" />
-      </li>
-      
     </ul>
   </div>
 </div>
 
 
-            <footer class="flex justify-between items-center gap-2 
-               
-              px-4  py-12 ">
+            
+            <footer class="flex justify-between items-center gap-2 px-4 py-12">
+            
               <div>
   
   <p>
@@ -284,13 +248,6 @@
   
 
   
-  <p class="text-sm">
-    🌱
-    <span class="text-base-content/60">
-      Powered by <a class="hover:underline" href="https://gohugo.io/" target="_blank">Hugo</a> with theme
-      <a class="hover:underline" href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</span
-    >
-  </p>
   
 </div>
 
@@ -327,7 +284,7 @@
         <div class="back">
           <div class="container">
             
-              <div class="dream-grid">
+            <div class="dream-grid">
   
   
   

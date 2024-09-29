@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en"
   x-data
-  :class="$store.darkMode ? $store.darkMode.class() : ''"
-  :data-theme="$store.darkMode ? $store.darkMode.theme() : ''">
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Category1 | Briefe von Felix</title>
 
     
+<link href="/favicon.ico" rel="icon" type="image/x-icon" />
+
 
 <link rel="canonical" href="http://localhost:1313/categories/category1/" />
 
@@ -64,7 +66,7 @@
     <section class="flex items-center gap-4">
       <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="Flip it!">
         <div class="h-10 rounded-full">
-          <img src="/" alt="Briefe von Felix" />
+          <img src="/icon.png" alt="Briefe von Felix" />
         </div>
       </div>
 
@@ -239,20 +241,16 @@
 
   <div class="md:basis-[200px] lg:basis-[300px] p-4 prose dark:prose-invert">
     <h1 class="text-2xl">Category1</h1>
-    <p class="text-sm">
-      1 Artikel
-    </p>
+    <p class="text-sm">1 Artikel</p>
     <div class="flex flex-wrap gap-4 mt-6">
       
 
       
-        
-          
-          <span class="badge h-6 badge-primary">
-            Category1
-          </span>
-          
-        
+      
+      <span class="badge h-6 badge-primary">
+        Category1
+      </span>
+      
       
     </div>
   </div>
@@ -264,14 +262,13 @@
 
     
     <div class="dream-grid">
-      
-        
-          <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
-            <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/test/">
+    
+      <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
+        <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/test/">
   
   <figure>
     
-      <img src="/img/cover.jpg" alt="Test" />
+    <img src="/img/cover.jpg" alt="Test" />
     
   </figure>
   
@@ -279,22 +276,22 @@
   <div class="card-body">
     <h2 class="card-title">Test</h2>
 
+    <p class="date text-base-content/60">
     
-      <p class="date text-base-content/60">
-        
-          Sonntag, Sept. 29, 2024
-        
-      </p>
+      Sonntag, Sept. 29, 2024
     
+    </p>
 
-    
-      <p>Cut out summary from your post content here.</p>
-    
+    <p>Cut out summary from your post content here.</p>
 
     <div class="card-actions justify-between items-center mt-4">
       <div class="flex items-center">
   
-  <span>@</span>
+  <div class="avatar mr-1">
+    <div class="w-8 rounded-full">
+      <img class="my-0" src="themes/icon.png" alt="Author Name" />
+    </div>
+  </div>
   
 
   <span itemprop="author" itemscope itemtype="https://schema.org/Person">
@@ -315,9 +312,8 @@
   </div>
 </a>
 
-          </div>
-        
-      
+      </div>
+    
     </div>
     
 
@@ -327,9 +323,9 @@
 
 
 
-            <footer class="flex justify-between items-center gap-2 
-               
-              px-4  py-12 ">
+            
+            <footer class="flex justify-between items-center gap-2 px-4 py-12">
+            
               <div>
   
   <p>
@@ -338,13 +334,6 @@
   
 
   
-  <p class="text-sm">
-    🌱
-    <span class="text-base-content/60">
-      Powered by <a class="hover:underline" href="https://gohugo.io/" target="_blank">Hugo</a> with theme
-      <a class="hover:underline" href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</span
-    >
-  </p>
   
 </div>
 
@@ -381,7 +370,7 @@
         <div class="back">
           <div class="container">
             
-              <div class="dream-grid">
+            <div class="dream-grid">
   
   
   
