@@ -21,7 +21,7 @@ darkTheme = "forest"
 
 author = "Felix"
 # description = ""
-avatar = "icon.png"
+avatar = "/icon.png"
 headerTitle = "Briefe von Felix"
 # motto = ""
 
@@ -42,7 +42,7 @@ headerTitle = "Briefe von Felix"
 
 siteStartYear = 2024
 
-favicon = "favicon.ico"
+favicon = "/favicon.ico"
 
 # Syntax highlighting
 # customSyntaxHighlighting = true
