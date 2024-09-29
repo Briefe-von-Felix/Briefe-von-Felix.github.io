@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-us"
   x-data
-  :class="$store.darkMode.class()"
-  :data-theme="$store.darkMode.theme()">
+  :class="$store.darkMode ? $store.darkMode.class() : ''"
+  :data-theme="$store.darkMode ? $store.darkMode.theme() : ''">
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -96,23 +96,32 @@
 
 
 
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
+    <ion-icon name="archive"></ion-icon>
+    Archives
+  </a>
+</li>
 
 
 
 
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="All Categories">
+    <ion-icon name="grid"></ion-icon>
+    All Categories
+  </a>
+</li>
 
 
 
 
-
-
-
-
-
-
-
-
-
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="All Tags">
+    <ion-icon name="pricetags"></ion-icon>
+    All Tags
+  </a>
+</li>
 
 
 
@@ -145,23 +154,23 @@
 
       
       
-
-
-
-
-
-      
-      
-
-
-
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="Archives">
+  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
+</a>
 
 
       
       
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/categories" title="All Categories">
+  <ion-icon class="group-hover:text-primary-content" name="grid"></ion-icon>
+</a>
 
 
-
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="All Tags">
+  <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
+</a>
 
 
       
@@ -186,9 +195,9 @@
 </div>
 
 
-            
-            <footer class="flex justify-between items-center gap-2 px-4 py-12">
-            
+            <footer class="flex justify-between items-center gap-2 
+               
+              px-4  py-12 ">
               <div>
   
   <p>© 2024 My New Hugo Site</p>
@@ -238,7 +247,7 @@
         <div class="back">
           <div class="container">
             
-            <div class="dream-grid">
+              <div class="dream-grid">
   
 
   

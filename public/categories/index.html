@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-us"
   x-data
-  :class="$store.darkMode.class()"
-  :data-theme="$store.darkMode.theme()">
+  :class="$store.darkMode ? $store.darkMode.class() : ''"
+  :data-theme="$store.darkMode ? $store.darkMode.theme() : ''">
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -99,23 +99,32 @@ All Categories | My New Hugo Site</title>
 
 
 
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
+    <ion-icon name="archive"></ion-icon>
+    Archives
+  </a>
+</li>
 
 
 
 
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="All Categories">
+    <ion-icon name="grid"></ion-icon>
+    All Categories
+  </a>
+</li>
 
 
 
 
-
-
-
-
-
-
-
-
-
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="All Tags">
+    <ion-icon name="pricetags"></ion-icon>
+    All Tags
+  </a>
+</li>
 
 
 
@@ -148,23 +157,23 @@ All Categories | My New Hugo Site</title>
 
       
       
-
-
-
-
-
-      
-      
-
-
-
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="Archives">
+  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
+</a>
 
 
       
       
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/categories" title="All Categories">
+  <ion-icon class="group-hover:text-primary-content" name="grid"></ion-icon>
+</a>
 
 
-
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="All Tags">
+  <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
+</a>
 
 
       
@@ -187,9 +196,24 @@ All Categories | My New Hugo Site</title>
 <div class="flex flex-col md:flex-row mt-4">
 
   <div class="md:basis-[200px] lg:basis-[300px] p-4 prose dark:prose-invert">
-    <h1 class="text-2xl">All Categories</h1>
-    <p class="text-sm">0 categories</p>
+    <h1 class="text-2xl">
+      
+      All Categories
+    </h1>
+    <p class="text-sm">
+      
+        
+          1 category
+        
+      
+    </p>
     <div class="flex flex-wrap gap-4 mt-6">
+      
+        
+          <a href="/categories/category1/" class="badge h-6 no-underline hover:badge-primary">
+            Category1
+          </a>
+        
       
     </div>
   </div>
@@ -198,22 +222,72 @@ All Categories | My New Hugo Site</title>
   
   <div class="flex-1">
     
+    
+      
+
+      
+      <div class="dream-grid">
+        
+          <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
+            <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/test/">
+  
+  <figure>
+    
+      <img src="/img/cover.jpg" alt="Test" />
+    
+  </figure>
+  
+
+  <div class="card-body">
+    <h2 class="card-title">Test</h2>
 
     
-    <div class="dream-grid">
+      <p class="date text-base-content/60">Datum nicht verfügbar</p>
     
+
+    
+      <p>Cut out summary from your post content here.</p>
+    
+
+    <div class="card-actions justify-between items-center mt-4">
+      <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <span itemprop="name">Author Name</span>
+    
+  
+  </span>
+</div>
+
+
+      <div class="flex items-center">
+        <ion-icon name="time" class="mr-1"></ion-icon>
+        <span>1 minute read</span>
+      </div>
     </div>
-    
+  </div>
+</a>
 
+          </div>
+        
+      </div>
+      
+
+      
     
   </div>
 </div>
 
 
 
-            
-            <footer class="flex justify-between items-center gap-2 px-4 py-12">
-            
+            <footer class="flex justify-between items-center gap-2 
+               
+              px-4  py-12 ">
               <div>
   
   <p>© 2024 My New Hugo Site</p>
@@ -263,7 +337,7 @@ All Categories | My New Hugo Site</title>
         <div class="back">
           <div class="container">
             
-            <div class="dream-grid">
+              <div class="dream-grid">
   
 
   
