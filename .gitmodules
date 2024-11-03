@@ -1,3 +1,3 @@
-[submodule "themes/dream"]
-  path = themes/dream
-  url = https://github.com/Briefe-von-Felix/hugo-theme-dream.git
+[submodule "themes/themes/dream"]
+	path = themes/themes/dream
+	url = https://github.com/Briefe-von-Felix/hugo-theme-dream.git
