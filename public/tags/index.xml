@@ -6,20 +6,27 @@
     <description>Recent content in Tags on Briefe von Felix</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 19 Nov 2024 19:38:36 +1300</lastBuildDate>
+    <lastBuildDate>Sun, 24 Nov 2024 19:15:45 +1300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Christchurch</title>
-      <link>http://localhost:1313/tags/christchurch/</link>
-      <pubDate>Tue, 19 Nov 2024 19:38:36 +1300</pubDate>
-      <guid>http://localhost:1313/tags/christchurch/</guid>
+      <title>Apple Orchard</title>
+      <link>http://localhost:1313/tags/apple-orchard/</link>
+      <pubDate>Sun, 24 Nov 2024 19:15:45 +1300</pubDate>
+      <guid>http://localhost:1313/tags/apple-orchard/</guid>
       <description></description>
     </item>
     <item>
       <title>Nelson</title>
       <link>http://localhost:1313/tags/nelson/</link>
-      <pubDate>Sun, 20 Oct 2024 14:02:37 +1300</pubDate>
+      <pubDate>Sun, 24 Nov 2024 19:15:45 +1300</pubDate>
       <guid>http://localhost:1313/tags/nelson/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Christchurch</title>
+      <link>http://localhost:1313/tags/christchurch/</link>
+      <pubDate>Fri, 08 Nov 2024 19:12:49 +1300</pubDate>
+      <guid>http://localhost:1313/tags/christchurch/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,32 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-11-19T19:38:36+13:00</lastmod>
+    <loc>http://localhost:1313/posts/8/</loc>
+    <lastmod>2024-11-24T19:15:45+13:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/christchurch/</loc>
-    <lastmod>2024-11-19T19:38:36+13:00</lastmod>
+    <loc>http://localhost:1313/tags/apple-orchard/</loc>
+    <lastmod>2024-11-24T19:15:45+13:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-11-24T19:15:45+13:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/nelson/</loc>
+    <lastmod>2024-11-24T19:15:45+13:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-11-24T19:15:45+13:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-11-24T19:15:45+13:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/7/</loc>
     <lastmod>2024-11-19T19:38:36+13:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-11-19T19:38:36+13:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-11-19T19:38:36+13:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/6/</loc>
     <lastmod>2024-11-18T19:31:04+13:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/christchurch/</loc>
+    <lastmod>2024-11-08T19:12:49+13:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/5/</loc>
     <lastmod>2024-11-08T19:12:49+13:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/4/</loc>
     <lastmod>2024-11-03T12:21:33+13:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/nelson/</loc>
-    <lastmod>2024-10-20T14:02:37+13:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/3/</loc>
     <lastmod>2024-10-20T14:02:37+13:00</lastmod>
