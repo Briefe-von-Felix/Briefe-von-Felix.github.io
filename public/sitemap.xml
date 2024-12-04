@@ -3,21 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/tags/apple-orchard/</loc>
-    <lastmod>2024-12-01T17:18:29+13:00</lastmod>
+    <lastmod>2024-12-04T18:47:14+13:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/ashburton/</loc>
-    <lastmod>2024-12-01T17:18:29+13:00</lastmod>
+    <lastmod>2024-12-04T18:47:14+13:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-12-01T17:18:29+13:00</lastmod>
+    <lastmod>2024-12-04T18:47:14+13:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/9/</loc>
-    <lastmod>2024-12-01T17:18:29+13:00</lastmod>
+    <loc>http://localhost:1313/tags/christchurch/</loc>
+    <lastmod>2024-12-04T18:47:14+13:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/gastbeitrag/</loc>
+    <lastmod>2024-12-04T18:47:14+13:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/10/</loc>
+    <lastmod>2024-12-04T18:47:14+13:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/henry/</loc>
+    <lastmod>2024-12-04T18:47:14+13:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/kaikoura/</loc>
+    <lastmod>2024-12-04T18:47:14+13:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-12-01T17:18:29+13:00</lastmod>
+    <lastmod>2024-12-04T18:47:14+13:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-12-04T18:47:14+13:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/9/</loc>
     <lastmod>2024-12-01T17:18:29+13:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/nelson/</loc>
@@ -31,9 +46,6 @@
   </url><url>
     <loc>http://localhost:1313/posts/6/</loc>
     <lastmod>2024-11-18T19:31:04+13:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/christchurch/</loc>
-    <lastmod>2024-11-08T19:12:49+13:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/5/</loc>
     <lastmod>2024-11-08T19:12:49+13:00</lastmod>
