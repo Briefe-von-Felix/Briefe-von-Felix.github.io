@@ -2,6 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/anakiwa/</loc>
+    <lastmod>2025-01-09T21:34:39+13:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-01-09T21:34:39+13:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/christchurch/</loc>
+    <lastmod>2025-01-09T21:34:39+13:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/franz-josef/</loc>
+    <lastmod>2025-01-09T21:34:39+13:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/kaikoura/</loc>
+    <lastmod>2025-01-09T21:34:39+13:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/lake-tekapo/</loc>
+    <lastmod>2025-01-09T21:34:39+13:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/lower-moutere/</loc>
+    <lastmod>2025-01-09T21:34:39+13:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-01-09T21:34:39+13:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/punakaiki/</loc>
+    <lastmod>2025-01-09T21:34:39+13:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/saint-clair/</loc>
+    <lastmod>2025-01-09T21:34:39+13:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/12/</loc>
+    <lastmod>2025-01-09T21:34:39+13:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-01-09T21:34:39+13:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/wanaka/</loc>
+    <lastmod>2025-01-09T21:34:39+13:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/11/</loc>
     <lastmod>2024-12-15T21:20:15+13:00</lastmod>
   </url><url>
@@ -11,25 +50,10 @@
     <loc>http://localhost:1313/tags/ashburton/</loc>
     <lastmod>2024-12-15T21:20:15+13:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-12-15T21:20:15+13:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/christchurch/</loc>
-    <lastmod>2024-12-15T21:20:15+13:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-12-15T21:20:15+13:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-12-15T21:20:15+13:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/gastbeitrag/</loc>
     <lastmod>2024-12-04T18:47:14+13:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/10/</loc>
-    <lastmod>2024-12-04T18:47:14+13:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/kaikoura/</loc>
     <lastmod>2024-12-04T18:47:14+13:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/9/</loc>
