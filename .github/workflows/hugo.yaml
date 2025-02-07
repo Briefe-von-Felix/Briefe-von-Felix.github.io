@@ -1,3 +1,4 @@
+# Sample workflow for building and deploying a Hugo site to GitHub Pages
 name: Deploy Hugo site to Pages
 
 on:
@@ -31,7 +32,7 @@ jobs:
           && sudo dpkg -i "${{ runner.temp }}/hugo.deb"
       - name: Install Dart Sass
         run: sudo snap install dart-sass
-      - name: Checkout repository with submodules
+      - name: Checkout
         uses: actions/checkout@v3
         with:
           submodules: recursive
@@ -40,34 +41,21 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
       - name: Install Node.js dependencies
-        run: |
-          if [[ -f package-lock.json || -f npm-shrinkwrap.json ]]; then
-            npm ci;
-          else
-            echo "No package-lock or npm-shrinkwrap found.";
-          fi
+        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
           hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Debug: List files in public directory
-        run: ls -lR ./public
-      - name: Remove symlinks from public (falls vorhanden)
+      - name: "Debug: List public directory"
+        run: ls -l ./public
+      - name: "Remove symlinks from public (if any)"
         run: find ./public -type l -delete || true
-      - name: Clean public directory for deployment using rsync
+      - name: "Clean public directory for deployment using rsync"
         run: |
           rm -rf public_deploy
           rsync -aL --delete public/ public_deploy/
-      - name: Debug: List symlinks in public_deploy
-        run: find public_deploy -type l -ls || true
-      - name: Debug: List all files in public_deploy
-        run: find public_deploy -exec ls -l {} \;
-      - name: Check for hard links in public_deploy
-        run: find public_deploy -type f -links +1 -exec ls -l {} \; || true
-      - name: Check size of public_deploy
-        run: du -sh public_deploy
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
