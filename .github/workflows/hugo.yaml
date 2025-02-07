@@ -59,7 +59,7 @@ jobs:
           hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: "Debug: List public directory"
         run: ls -l ./public
-      - name: "Remove symlinks from public (falls vorhanden)"
+      - name: "Remove symlinks from public (if any)"
         run: find ./public -type l -delete || true
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
@@ -76,4 +76,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v3
+        uses: actions/deploy-pages@v4
