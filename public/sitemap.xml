@@ -2,31 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/blenheim/</loc>
+    <lastmod>2025-02-07T16:56:26+13:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-02-07T16:56:26+13:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/christchurch/</loc>
+    <lastmod>2025-02-07T16:56:26+13:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/15/</loc>
+    <lastmod>2025-02-07T16:56:26+13:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-02-07T16:56:26+13:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-02-07T16:56:26+13:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/14/</loc>
     <lastmod>2025-01-27T21:43:35+13:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/alexandra/</loc>
     <lastmod>2025-01-27T21:43:35+13:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-01-27T21:43:35+13:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/cherry-orchard/</loc>
-    <lastmod>2025-01-27T21:43:35+13:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-01-27T21:43:35+13:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-01-27T21:43:35+13:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/13/</loc>
     <lastmod>2025-01-19T16:05:17+13:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/anakiwa/</loc>
-    <lastmod>2025-01-09T21:34:39+13:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/christchurch/</loc>
     <lastmod>2025-01-09T21:34:39+13:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/franz-josef/</loc>
