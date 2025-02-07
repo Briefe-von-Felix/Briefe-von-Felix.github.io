@@ -52,10 +52,10 @@ jobs:
         run: ls -l ./public
       - name: "Remove symlinks from public (if any)"
         run: find ./public -type l -delete || true
-      - name: "Clean public directory for deployment"
+      - name: "Clean public directory for deployment using rsync"
         run: |
           rm -rf public_deploy
-          cp -rL public public_deploy
+          rsync -aL --delete public/ public_deploy/
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
