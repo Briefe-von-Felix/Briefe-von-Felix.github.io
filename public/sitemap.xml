@@ -3,21 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/tags/australien/</loc>
-    <lastmod>2025-02-16T18:50:42+11:00</lastmod>
+    <lastmod>2025-02-23T23:10:56+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-02-16T18:50:42+11:00</lastmod>
+    <lastmod>2025-02-23T23:10:56+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/canberra/</loc>
+    <lastmod>2025-02-23T23:10:56+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-02-23T23:10:56+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-02-23T23:10:56+11:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/17/</loc>
+    <lastmod>2025-02-23T23:10:56+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/16/</loc>
     <lastmod>2025-02-16T18:50:42+11:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-02-16T18:50:42+11:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/sydney/</loc>
-    <lastmod>2025-02-16T18:50:42+11:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-02-16T18:50:42+11:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/blenheim/</loc>
