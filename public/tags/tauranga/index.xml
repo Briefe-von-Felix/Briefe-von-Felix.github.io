@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sydney on Briefe von Felix</title>
-    <link>http://localhost:1313/tags/sydney/</link>
-    <description>Recent content in Sydney on Briefe von Felix</description>
+    <title>Tauranga on Briefe von Felix</title>
+    <link>http://localhost:1313/tags/tauranga/</link>
+    <description>Recent content in Tauranga on Briefe von Felix</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 04 Apr 2025 13:54:58 +1300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/sydney/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/tauranga/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Australien sagt Tschüss, Tauranga sagt „Hold for Rain“</title>
       <link>http://localhost:1313/posts/21/</link>
       <pubDate>Fri, 04 Apr 2025 13:54:58 +1300</pubDate>
       <guid>http://localhost:1313/posts/21/</guid>
       <description>&lt;p&gt;Halli hallo, ich bin zurück!&#xA;Seit dem letzten Beitrag ist zwar nicht die riesengroße Sensation passiert, aber ein bisschen was gibt es doch zu erzählen.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Huch... Australien</title>
-      <link>http://localhost:1313/posts/16/</link>
-      <pubDate>Sun, 16 Feb 2025 18:50:42 +1100</pubDate>
-      <guid>http://localhost:1313/posts/16/</guid>
-      <description>&lt;p&gt;Nene, das ist kein Clickbait, ich bin wirklich in Sydney.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
