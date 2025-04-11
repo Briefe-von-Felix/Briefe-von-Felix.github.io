@@ -6,8 +6,15 @@
     <description>Recent content in Tags on Briefe von Felix</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Apr 2025 13:54:58 +1300</lastBuildDate>
+    <lastBuildDate>Fri, 11 Apr 2025 20:29:02 +1200</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tauranga</title>
+      <link>http://localhost:1313/tags/tauranga/</link>
+      <pubDate>Fri, 11 Apr 2025 20:29:02 +1200</pubDate>
+      <guid>http://localhost:1313/tags/tauranga/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Australien</title>
       <link>http://localhost:1313/tags/australien/</link>
@@ -20,13 +27,6 @@
       <link>http://localhost:1313/tags/sydney/</link>
       <pubDate>Fri, 04 Apr 2025 13:54:58 +1300</pubDate>
       <guid>http://localhost:1313/tags/sydney/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tauranga</title>
-      <link>http://localhost:1313/tags/tauranga/</link>
-      <pubDate>Fri, 04 Apr 2025 13:54:58 +1300</pubDate>
-      <guid>http://localhost:1313/tags/tauranga/</guid>
       <description></description>
     </item>
     <item>
