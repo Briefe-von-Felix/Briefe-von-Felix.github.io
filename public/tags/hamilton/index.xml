@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hamilton on Briefe von Felix</title>
+    <link>http://localhost:1313/tags/hamilton/</link>
+    <description>Recent content in Hamilton on Briefe von Felix</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 04 May 2025 13:51:19 +1200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hamilton/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>16 Tage...</title>
+      <link>http://localhost:1313/posts/25/</link>
+      <pubDate>Sun, 04 May 2025 13:51:19 +1200</pubDate>
+      <guid>http://localhost:1313/posts/25/</guid>
+      <description>&lt;p&gt;Noch 16 Tage, bis ich in einer überdimensionalen Blechbüchse über den Wolken zurück Richtung Heimat reite. Und manchmal sitze ich einfach da und denke: Wie absurd ist das eigentlich alles?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
